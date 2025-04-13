@@ -16,7 +16,7 @@ export const slidesData = {
       title: "Project 3: Animista",
       link: "https://github.com/Steph7478/Animista-Website",
       description:
-        "This was my third project. I decided to make a copy of the Animista website to learn more about React hooks, understand animations, and explore more optimization and organization techniques. So far, this has been my best project, where I can showcase my current experience with these tools. I chose to build it without any libraries to understand the fundamentals of each new method I used—so that later, I could use libraries more effectively. For example, in this portfolio, I am using libraries.",
+        "This was my third project. I decided to make a copy of the Animista website to learn more about React hooks, understand animations, and explore optimization and organization techniques. So far, this has been my best project (besides my portfolio), where I can showcase my experience with these tools after completing all my projects. I chose to build it without any libraries to understand the fundamentals of each new method I used, so that later I could use libraries more effectively. For example, in this portfolio, I am using libraries.",
     },
   ],
 };
