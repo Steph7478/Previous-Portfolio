@@ -16,6 +16,9 @@ const Slider = ({ data }: SliderProps) => {
   const prev = () =>
     setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
+  // Apenas inverter a ordem visual dos slides
+  const reversedSlides = [...slides].reverse();
+
   return (
     <div
       ref={containerRef}
@@ -26,7 +29,7 @@ const Slider = ({ data }: SliderProps) => {
         animate={{ x: `-${index * 100}%` }}
         transition={{ type: "spring", stiffness: 40, damping: 7 }}
       >
-        {slides.map((slide, i) => (
+        {reversedSlides.map((slide, i) => (
           <div
             key={i}
             className="flex min-h-full min-w-full flex-col items-center justify-center overflow-hidden"
