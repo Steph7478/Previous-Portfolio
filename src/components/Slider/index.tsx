@@ -16,7 +16,6 @@ const Slider = ({ data }: SliderProps) => {
   const prev = () =>
     setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
-  // Apenas inverter a ordem visual dos slides
   const reversedSlides = [...slides].reverse();
 
   return (
