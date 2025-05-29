@@ -275,12 +275,12 @@ export default function Home() {
     const skills = [
       "Javascript",
       "Typescript",
+      "Nextjs",
       "CSS",
       "HTML",
       "ReactJS",
       "TailwindCSS",
       "Framer Motion",
-      "Vite",
       "REST APIs",
       "React Query",
       "Git",
